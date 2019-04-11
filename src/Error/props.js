@@ -7,13 +7,15 @@ export const propTypes = {
   error: PropTypes.string,
   errorPaddingTop: PropTypes.number,
   errorColor: PropTypes.string,
-  errorFontSize: PropTypes.number
+  errorFontSize: PropTypes.number,
+  errorHeight: PropTypes.number
 }
 
 export const defaultProps = {
   errorPaddingTop: BASE_UNIT,
   errorColor: RED,
-  errorFontSize: FONT_SMALL
+  errorFontSize: FONT_SMALL,
+  errorHeight: BASE_UNIT * 4
 }
 
 export const pickErrorProps = (props) => {
