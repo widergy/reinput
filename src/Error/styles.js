@@ -4,6 +4,6 @@ export const error = (props = {}) => ({
   height: props.errorHeight
 })
 
-export const placeholder = (props = {}) => ({
-  height: props.errorHeight
+export const placeholder = () => ({
+  height: 0
 })
