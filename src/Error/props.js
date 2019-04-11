@@ -15,7 +15,7 @@ export const defaultProps = {
   errorPaddingTop: BASE_UNIT,
   errorColor: RED,
   errorFontSize: FONT_SMALL,
-  errorHeight: BASE_UNIT * 4
+  errorHeight: 0
 }
 
 export const pickErrorProps = (props) => {

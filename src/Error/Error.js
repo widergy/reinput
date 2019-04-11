@@ -14,7 +14,7 @@ export default class ReinputError extends React.Component {
         {this.props.error}
       </Text>
     ) : (
-      <View styles={styles.placeholder()} />
+      <View styles={styles.placeholder(this.props)} />
     )
   }
 }
