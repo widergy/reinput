@@ -51,7 +51,7 @@ export default class ReinputLabel extends React.Component {
           translateY: this.state.animatedTranslate
         })}
       >
-        <Text style={styles.label(this.props)}>
+        <Text style={styles.label(this.props)} numberOfLines={1}>
           {this.props.label}
         </Text>
       </Animated.View>
