@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Animated } from 'react-native'
+import { Text, Animated, View } from 'react-native'
 
 import { defaultProps, propTypes } from './props'
 import * as styles from './styles'
