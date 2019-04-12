@@ -7,7 +7,7 @@ export const SCALE_FACTOR = 1.5
 export const row = (props = {}) => ({
   alignItems: 'center',
   flexDirection: 'row',
-  paddingTop: props && props.labelActiveTop || 22
+  paddingTop: props && Math.abs(props.labelActiveTop) || 22
 })
 
 export const container = (props) => ({
