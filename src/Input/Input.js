@@ -70,7 +70,7 @@ export default class ReinputInput extends React.Component {
     const hasValue = this.hasValueWithContent(value)
 
     return (
-      <View style={styles.row(...pickLabelProps({...this.props}))}>
+      <View style={styles.row({...this.props})}>
         <Icon {...pickIconProps({ ...this.props, onPress: this.focus })} />
         <View style={styles.container(this.props)}>
           <View
