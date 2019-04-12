@@ -4,10 +4,11 @@ import pick from '../services/pick'
 
 export const SCALE_FACTOR = 1.5
 
-export const row = {
+export const row = (props = {}) => ({
   alignItems: 'center',
-  flexDirection: 'row'
-}
+  flexDirection: 'row',
+  paddingTop: props && props.labelActiveTop || 22
+})
 
 export const container = (props) => ({
   ...pick(props, [
