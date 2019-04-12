@@ -13,6 +13,7 @@ export const container = ({ top, translateY, scale }) => ({
 
 export const labelContainer = {
   flex: 1,
+  overflow: 'hidden',
   width: '100%'
 }
 
@@ -34,7 +35,7 @@ export const label = (props = {}) => {
     paddingLeft: 1, // cursor indicator
     left: '50%',
     overflow: 'hidden',
-    width: '100%',
+    width: '50%',
     top: 0
   }
 }
