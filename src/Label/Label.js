@@ -51,7 +51,7 @@ export default class ReinputLabel extends React.Component {
         })}
       >
         <View style={styles.labelContainer}>
-          <Text style={styles.label(this.props)} numberOfLines={1}>
+          <Text style={styles.label(this.props)} numberOfLines={1} ellipsizeMode="tail">
             {this.props.label}
           </Text>
         </View>
