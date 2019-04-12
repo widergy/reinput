@@ -25,6 +25,7 @@ export const label = (props = {}) => {
       'paddingRight'
     ]),
     color,
+    flex: 1,
     paddingLeft: 1, // cursor indicator
     left: '50%',
     top: 0
