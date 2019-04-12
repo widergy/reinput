@@ -13,6 +13,7 @@ export const container = ({ top, translateY, scale }) => ({
 
 export const labelContainer = {
   flex: 1,
+  overflow: 'hidden',
   width: '100%'
 }
 
