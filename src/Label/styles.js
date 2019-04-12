@@ -34,6 +34,7 @@ export const label = (props = {}) => {
     flex: 1,
     paddingLeft: 1, // cursor indicator
     left: '50%',
+    width: '100%',
     top: 0
   }
 }
