@@ -44,16 +44,17 @@ export default class ReinputLabel extends React.Component {
   render () {
     return (
       <Animated.View
-        numberOfLines={1}
         style={styles.container({
           scale: this.state.animatedScale,
           top: this.props.paddingTop,
           translateY: this.state.animatedTranslate
         })}
       >
-        <Text style={styles.label(this.props)} numberOfLines={1}>
-          {this.props.label}
-        </Text>
+        <View style={styles.labelContainer()}>
+          <Text style={styles.label(this.props)} numberOfLines={1}>
+            {this.props.label}
+          </Text>
+        </View>
       </Animated.View>
     )
   }
