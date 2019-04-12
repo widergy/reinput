@@ -11,9 +11,10 @@ export const container = ({ top, translateY, scale }) => ({
   width: '200%'
 })
 
-export const labelContainer = (props = {}) => ({
-  flex: 1
-})
+export const labelContainer = {
+  flex: 1,
+  width: '100%'
+}
 
 export const label = (props = {}) => {
   const activeColor = props.activeColor || props.labelActiveColor
