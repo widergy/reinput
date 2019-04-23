@@ -49,6 +49,7 @@ export default class ReinputLabel extends React.Component {
           top: this.props.paddingTop,
           translateY: this.state.animatedTranslate
         })}
+        pointerEvents="none"
       >
         <View style={styles.labelContainer}>
           <Text style={styles.label(this.props)} numberOfLines={1} ellipsizeMode="tail">
